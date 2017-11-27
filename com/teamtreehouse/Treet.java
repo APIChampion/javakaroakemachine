@@ -16,6 +16,11 @@ public class Treet{
     mCreationDate = creationDate;
   }
 
+  @Override
+  public String toString(){
+    return "Treet: \"" +mDescription +"\" - @"+mAuthor;
+  }
+
   public String getAuthor(){
     return mAuthor;
 
